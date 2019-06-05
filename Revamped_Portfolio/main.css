@@ -1,0 +1,202 @@
+body {
+    background-image: url(IMAGESCSS/tree_bark.png);
+}
+footer {
+    border-radius: 20px 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    flex: wrap;
+    background-color: dimgray;
+}
+
+.topnav a:hover {
+    background-color: gray;
+}
+.dropdown {
+    display: none;
+}
+.drop {
+    display: none;
+}
+.topnav {
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: block;
+}
+.dd{
+    border-radius: 10px 10px;
+    position: relative;
+}
+.ddc{
+    
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.dd:hover .ddc{
+    display:block;
+    transition: 4s;
+}
+nav ul li a {
+    margin-left: 22%;
+    margin-right: 10%;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: dimgray;
+    width: 100%;
+}
+nav ul li a:hover {
+    background-color: dimgrey;
+}
+nav.topbar {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px 10px;
+    background:black; 
+}
+
+nav.topbar ul { 
+    margin: 0;
+    list-style: none;
+}
+nav.topbar ul li {
+    display: inline-block;
+}
+nav.topbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 1.2em;
+}
+.topbar li {
+    width: 20%;
+    text-align: center;
+}
+.topbar a {
+    width: 100%;
+    padding: 5%;
+}
+.ddc li{
+    width: 100%;
+}
+.ddc a{
+ padding: 2%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+.topbar li {
+  margin-left: 1%;
+ margin-right: 1%;
+}
+.headerstyle {
+    background-position: center;
+    padding: 4%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(IMAGESCSS/Unirex-boi.PNG);
+}
+h1{
+    box-sizing: content-box;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.home p{
+    border-radius: 10px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: dimgrey;
+    flex: wrap;
+    text-align: center;
+    font-size: 30px;
+}
+.home h4{
+    border-radius: 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 40px;
+}
+.home h3{
+    border-radius: 200px 200px;
+    background-repeat: no-repeat; 
+    margin-right: 500px;
+    margin-left: 500px;
+    font-size: 600%;
+    justify-content: center;
+    height: 450px;
+    display:flex;
+    background-size: 100%;
+    background-image: url(IMAGESCSS/team_photo.JPG)
+}
+.contactform {
+    background-color: dimgrey;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 9%;
+    margin-bottom: 5%;
+}
+.contactform input , .contactform textarea {
+    border-radius: 9%;
+    color: black;
+    font-size: 14pt;
+}
+.donate {
+     width: 50%;
+    margin: auto;
+    text-align: center;
+        border-radius: 9%;
+        color: whitesmoke;
+     background-color: dimgrey;
+}
+.contactpage h1 {
+    font-size: 50pt;
+}
+
+.pictures {
+    width: 60%;  
+color: whitesmoke;
+background-color: dimgrey;
+    margin: 2%;
+    margin-left: auto;
+margin-right: auto;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.RPic{
+margin-left: 34%;
+}
+.pic1{
+    margin-left:28%;
+    width: 80%;
+}
+.pic2{
+    margin-left:28%;
+    width: 80%;
+}
+.pic3{
+    margin-left:28%;
+    width: 80%;
+}
